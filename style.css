@@ -14,28 +14,12 @@ body {
     margin-top: 10px;
   }
   
-  h2 {
+  h2 h3 {
     font-size: 23px;
     color: #6c23e1;
     font-weight: 700;
     margin-top: 0px;
-  }
-  
-  
-  h3 {
-    font-size: 22px;
-    font-weight: 400;
-  }
-  
-  hr {
-    background-color: #d1d1d1;
-    color: #d1d1d1;
-    height: 1px;
-    border: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
+  }  
   p {
     font-size: 19px;
     margin-bottom: 10px;
@@ -45,19 +29,16 @@ body {
   a {
     color: #08a0dc;
   }
-  
-  }  
   .header-container{
-    background: #0ceb13; 
-  
+    background: #0ceb13;   
     height: 67px;
     width: 100%;
     text-align: center;
     position: relative;
   }
   
-  .header-container > .header {
-    display: inline-block;
+  .header-container  .header {
+    display: flex;
     width: 960px;
     height: 100%;
     position: relative;
@@ -67,15 +48,7 @@ body {
     position: relative;
     height: 100%;
     margin-left: 20px;
-  }
-  
-  .logo {
-    margin-top: 7px;
-    font-size: 50px;
-    position: absolute;
-    left: 0;
-  }
-  
+  }  
  
   .content-container {
     width: 100%;
@@ -84,7 +57,7 @@ body {
   
   .content {
     text-align: center;
-    display: inline-block;
+    display: flex;
     width: 960px;
   }
   
@@ -94,7 +67,7 @@ body {
     margin-bottom: 30px;
   }
   
-  /* Media Queries */
+  /* Media Queries These don't work yet*/
 
 @media (min-width: 699px) {
 	.content .header {

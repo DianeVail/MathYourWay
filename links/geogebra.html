@@ -1,0 +1,23 @@
+<html lang = "en">
+    <body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <link href="../style.css" rel="stylesheet" type="text/css" />
+
+        <title>Geometry Sketching Tool</title>
+        <div class = "header-logo">Welcome to the Geogebra sketching tool!</p>
+        <p>Sketch your graph below</p>
+        <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+        <div id="ggb-element"></div>
+        <script>
+          var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+          var applet = new GGBApplet(params, true);
+          window.addEventListener("load", function() {
+              applet.inject('ggb-element');
+          });       
+        </script>
+        <p><a href="../index.html">Back to Home</a></p>
+    </body>
+    <script src="../index.js"></script>
+</html>

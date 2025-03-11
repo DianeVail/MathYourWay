@@ -1,25 +1,32 @@
 "use strict"
 // Code for Desmos Calculator//
-  var elt = document.getElementById('calculator');
-  var calculator = Desmos.GraphingCalculator(elt);
+var elt = document.getElementById('calculator');
+var calculator = Desmos.GraphingCalculator(elt);
 
- // var elt = document.getElementById('my-calculator');
- // var calculator = Desmos.GraphingCalculator(elt);
 
- //Code Snippet from Numbers API
- const data = null;
-
-const xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
-
-xhr.addEventListener('readystatechange', function () {
-	if (this.readyState === this.DONE) {
-		console.log(this.responseText);
-	}
+ 
+ //Code for math fact of the day API //
+ //This does not work yet
+ $.get('http://numbersapi.com/5/math', function(data) {
+	$('#number').text(data);
 });
 
-xhr.open('GET', 'https://numbersapi.p.rapidapi.com/1729/math');
-xhr.setRequestHeader('x-rapidapi-key', '683316b4d9mshcaba3263dad5228p173f27jsna61933234ee3');
-xhr.setRequestHeader('x-rapidapi-host', 'numbersapi.p.rapidapi.com');
+ //Code for Pythagorean Theorem function
 
-xhr.send(data);
+ function checkValues() {  //Check to make sure input is valid
+    
+    if (a <=0 || b <=0) {
+        console.log("Side lengths must be greater than zero");
+    } 
+	
+}
+//  function for inputing values and calculating hypotenuse 
+function computeValues {
+	let c = sqrt(a^2 + b^2)
+	console.log(c);
+}
+submissionBtn.addEventListener("click", function () {
+    checkValues;
+});
+
+ 	

@@ -6,14 +6,18 @@
         <link href="../style.css" rel="stylesheet" type="text/css" />
 
         <title>Desmos Calculator</title>
-        <div class = "header-logo">Welcome to the Desmos Graphing Calculator page!</p>
+        <div class = "mathpages">Welcome to the Desmos Graphing Calculator page!</p>
         <p>Enter your equation below to see the graph</p>
-
-        
-        <script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+        <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
         <div id="calculator" style="width: 600px; height: 400px;"></div>
+        <script>
+            var elt = document.getElementById('calculator');
+            var calculator = Desmos.GraphingCalculator(elt);
+          </script>
+        
+        
         <p><a href="../index.html">Back to Home</a></p>
-
+<script src="../index.js"></script>
     </body>
-    <script src="../index.js"></script>
+    
 </html>

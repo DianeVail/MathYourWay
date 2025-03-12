@@ -1,32 +1,45 @@
 <html lang = "en">
     <body>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
         <link href="../style.css" rel="stylesheet" type="text/css" />
         
         <title>Pythagorean Theorem Calculator Tool</title>
-        <div class = "header-logo">Welcome to the Pythagorean Theorem Calculator Tool </p>
+        
+        <div class = "mathpages">
         <p>The Pythagorean theorem states that the sum of the squares of the two shorter sides of a right triangle is equal to the square of the longest side. </p>
-            <p>The formula for the Pythagorean theorem is a^2 + b^2 = c^2, where c is the length of the hypotenuse. </p>
+        <p>The formula for the Pythagorean theorem is a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>, where c is the length of the hypotenuse. </p>
+        <div class="photo-img"><img src="/images/220px-Pythagorean.svg.png" alt="trianglephoto"></div>
+        
+        <input class = "input" type = "number" name = "" id = "side-a" placeholder = "Enter a value for side a"/>
+        <input class = "input" type = "number" name = "" id = "side-b" placeholder = "Enter a value for side b"/>
             
-            <label class= "User-Input">Enter a value for side a:</label>
-            <input type="number" class="input" id="user-input">
-            <label class= "User-Input">Enter a value for side b:</label>
-            <input type="number" class="input" id="user-input">
-            <button id="submission-btn">Submit</button>
 
-        </section>
+        <div class = "btn-container">
+        <button id = "submit-btn" class = "btn">Submit</button>
+        </div>
+        <p>The Hypotenuse is: <span id="hypotenuse"></span></p> <!-- Outputs Hypotenuse-->
 
+        <p><a href="../index.html">Back to Home</a></p> <!--returns to home-->
 
-
-
-
-
-
-
-
-        <p><a href="../index.html">Back to Home</a></p>
     </body>
     <script src="../index.js"></script>
-</html>
+</html>          
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+   

@@ -1,32 +1,48 @@
 "use strict"
-// Code for Desmos Calculator//
-var elt = document.getElementById('calculator');
-var calculator = Desmos.GraphingCalculator(elt);
 
 
- 
- //Code for math fact of the day API //
+//Code for math fact of the day API //
  //This does not work yet
- $.get('http://numbersapi.com/5/math', function(data) {
-	$('#number').text(data);
-});
-
+ 
  //Code for Pythagorean Theorem function
 
- function checkValues() {  //Check to make sure input is valid
+const submitBtn = document.getElementById("submit-btn");  //Submit-btn
+const sideA = document.getElementById("side-a");//input a
+const sideB = document.getElementById("side-b");//input b
+const hypotenuse = document.getElementById("hypotenuse");  //output value for c
+
+let answer = "";
+let legA = 0;
+let legB = 0;
+
+console.log("hi");
+    console.log(legA);
+
+function checkValues() {  //Check to make sure input is valid
+    legA = parseInt(sideA.value);
+    legB = parseInt(sideB.value);  //User enters numbers  //User enters numbers
+    console.log("hi there");
+    console.log(legB);
+
+    if (legA <=0 || legB <= 0) {
+        hypotenuse.innerText = "Please enter positive values only";
+        
+    } else {
+        answer = Math.sqrt(legA*legA + legB*legB);
+        console.log(answer);
+        hypotenuse.innerText = answer;
+
+    }
     
-    if (a <=0 || b <=0) {
-        console.log("Side lengths must be greater than zero");
-    } 
-	
 }
-//  function for inputing values and calculating hypotenuse 
-function computeValues {
-	let c = sqrt(a^2 + b^2)
-	console.log(c);
+function render() {  
+   checkValues();
 }
-submissionBtn.addEventListener("click", function () {
-    checkValues;
+
+submitBtn.addEventListener("click", function () {
+    render();
 });
 
- 	
+
+
+

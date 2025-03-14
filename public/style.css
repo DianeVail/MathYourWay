@@ -8,7 +8,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	line-height: 1.6;
-	background-color: #bdb9b9;
+	background-color: rgb(245, 242, 242);
 }
 
 
@@ -21,12 +21,13 @@ a {
 }
 
 a:hover {
-	color: #e6f0e8;
+	color: blue;
 	
 }
 
 .header {	
-	border-bottom: 8px solid #4506f5;
+	border-bottom: 8px solid black;
+	background: linear-gradient(hsl(186, 66%, 37%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
@@ -38,7 +39,8 @@ a:hover {
 
 .mathpages {
 	padding: 2.5rem;
-	background-color: rgb(211, 250, 250);
+	background: linear-gradient(hsl(180, 10%, 92%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+	box-shadow: 0 0 20px 0 rgb(13, 13, 14);
 	width: 90%;
 	display: flex;
 	flex-direction: column;
@@ -46,19 +48,11 @@ a:hover {
 	font-size: 20px;
 
 }
-.photo-image {
-	display: flex;
-	justify-content: left;
-	width: 20%;
-	height: 20%;
-	
-	
-}
+
 .input {
 	display: flex;
-    flex-direction: column;
-    margin: 0.5rem 1rem;
-	width: 10%;
+    flex-direction: row;
+    width: 10%;
     align-items: center;
 
 }
@@ -78,21 +72,20 @@ a:hover {
 	display:flex;
 	flex-direction:column;
 	background-color: var(--btn-bg-color);
-    border: 0.125rem solid rgb(95, 13, 248);
+    border: 0.125rem solid black;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
     width: 90%;
     max-width: 10rem;
 }
 .btn-container {
-	
-    display: flex;
+	display: flex;
     flex-direction: column;
-    margin: 0.5rem 1rem;
-    align-items: center;
+    width: 40%;
+	justify-content: center;
+	margin-inline: 25%;
+    align-items: left;
 }
-
-
 .footer {
 	background-color:gray;
 	border-bottom: 8px solid #000000;
@@ -118,6 +111,17 @@ a:hover {
 		justify-content:center;
 		font-size: 15px;
 	}
+	.mathlinks {
+		display:flex;
+		flex-direction: row;
+		background-color: var(--btn-bg-color);
+		border: 0.125rem solid black;
+		margin: 0.5rem 0;
+		padding: 0.5rem 1rem;
+		width: 90%;
+		max-width: 10rem;
+	}
+	
 	.footer {
 		background-color: rgb(163, 163, 165);
 		flex-direction: row;

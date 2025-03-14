@@ -4,28 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
-        <link href="../style.css" rel="stylesheet" type="text/css" />
+        <link href="../public/style.css" rel="stylesheet" type="text/css" />
         
         <title>Pythagorean Theorem Calculator Tool</title>
         
         <div class = "mathpages">
-        <p>The Pythagorean theorem states that the sum of the squares of the two shorter sides of a right triangle is equal to the square of the longest side. </p>
-        <p>The formula for the Pythagorean theorem is a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>, where c is the length of the hypotenuse. </p>
-        <div class="photo-img"><img src="/images/220px-Pythagorean.svg.png" alt="trianglephoto"></div>
-        
-        <input class = "input" type = "number" name = "" id = "side-a" placeholder = "Enter a value for side a"/>
-        <input class = "input" type = "number" name = "" id = "side-b" placeholder = "Enter a value for side b"/>
+            <div class = "header">Pythagorean Theorem Calculator Tool</div>
             
+            <p>The Pythagorean theorem states that the sum of the squares of the two shorter sides of a right triangle is equal to the square of the longest side. </p>
+            <p>The formula for the Pythagorean theorem is a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>, where c is the length of the hypotenuse. </p>
+                <div class="photo-img"><img src="../public/images/220px-Pythagorean.svg.png" alt="trianglephoto">
+                </div>
 
-        <div class = "btn-container">
-        <button id = "submit-btn" class = "btn">Submit</button>
-        </div>
+                <div class = "btn-container">
+                        <input type = "number" name = "" id = "side-a" placeholder = "Enter a value for side a"/>
+                        <input type = "number" name = "" id = "side-b" placeholder = "Enter a value for side b"/>
+                        <button id = "submit-btn">Submit</button>
+                </div>
+                
+        
+        
+        
         <p>The Hypotenuse is: <span id="hypotenuse"></span></p> <!-- Outputs Hypotenuse-->
+        <span id = "message"></span>
 
         <p><a href="../index.html">Back to Home</a></p> <!--returns to home-->
+        <div class = "footer">Created By: DVaillancourt, 2025</div>
 
+        <script src="../public/pythagoreanthm.js"></script>
     </body>
-    <script src="../index.js"></script>
+    
 </html>          
 
             

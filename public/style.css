@@ -1,6 +1,6 @@
 html {
 	padding: 0;
-	margin: 0;
+	margin: 10px;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	line-height: 1.6;
-	background-color: rgb(245, 242, 242);
+	background-color: rgb(166, 222, 240);
 }
 
 
@@ -34,18 +34,17 @@ a:hover {
 	margin-bottom: 3.2rem;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 15px;
+	font-size: 30px;
 }
 
 .mathpages {
 	padding: 2.5rem;
-	background: linear-gradient(hsl(180, 10%, 92%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 	box-shadow: 0 0 20px 0 rgb(13, 13, 14);
-	width: 90%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
-	font-size: 20px;
+	font-size: 15px;
 
 }
 
@@ -64,34 +63,35 @@ a:hover {
 	margin: 0.5rem 0;
     padding: 0.5rem 1rem;
     width: 100%;
-	font-size: 15px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
 
 }
 
 .mathlinks {
 	display:flex;
 	flex-direction:column;
-	background-color: var(--btn-bg-color);
     border: 0.125rem solid black;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
-    width: 90%;
     max-width: 10rem;
 }
 .btn-container {
 	display: flex;
-    flex-direction: column;
-    width: 40%;
-	justify-content: center;
-	margin-inline: 25%;
-    align-items: left;
+    flex-direction: column;	
+    width: 100%;
+	justify-content: right;
+	margin-inline: 10%;
+	padding: 1rem 1rem;
+	margin-top: 10px;
+	
 }
 .footer {
-	background-color:gray;
-	border-bottom: 8px solid #000000;
-	margin-bottom: 3.2rem;
+	background-color:gray;	
 	font-size: 10px;
 	text-align: center;
+	width: 100%;
 	
 	
 }
@@ -101,8 +101,9 @@ a:hover {
 	.header {
 		background-color: rgb(144, 144, 148);
 		flex-direction: row;
-		align-items: center;
-		font-size: 15px;
+		align-items: ;
+		font-size: 35px;
+		width: 100%
 	}
 	a {
 		color: #0f0f0f;
@@ -113,19 +114,28 @@ a:hover {
 	}
 	.mathlinks {
 		display:flex;
-		flex-direction: row;
-		background-color: var(--btn-bg-color);
+		flex-direction: column;	
+		justify-content: center;	
 		border: 0.125rem solid black;
-		margin: 0.5rem 0;
-		padding: 0.5rem 1rem;
+		margin: 1rem 1rem;
+		padding: 1rem 1rem;
 		width: 90%;
-		max-width: 10rem;
 	}
+	.btn-container {
+		display: flex;
+		flex-direction: row;
+		width: 80%;
+		justify-content: center;
+		margin-inline: 10%;
+		padding: 1rem 1rem;
+
+		
 	
 	.footer {
 		background-color: rgb(163, 163, 165);
 		flex-direction: row;
-		align-items: center;
+		width: 100%;
+		align-items: left;
 		font-size: 15px;
 	}
 }

@@ -1,24 +1,25 @@
+<!DOCTYPE html>
 <html lang = "en">
-    <body>
+
+<!--  html code for the Geogebra Graphing API -->
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
         <link href="../public/style.css" rel="stylesheet" type="text/css" />
-
+        
+      </head>
+      <body>
         <title>Geometry Sketching Tool</title>
-        <div class = "mathpages">Welcome to the Geogebra sketching tool!</p>
+        <div class = "mathpages">Welcome to the Geogebra Graphing Calculator!</p>
         <p>Enter an equation below to see the graph</p>
         <script src="https://www.geogebra.org/apps/deployggb.js"></script>
         <div id="ggb-element"></div>
-        <script>
-          var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
-          var applet = new GGBApplet(params, true);
-          window.addEventListener("load", function() {
-              applet.inject('ggb-element');
-          });       
-        </script>
+
+        
+        
         <p><a href="../index.html">Back to Home</a></p>
         <div class = "footer">© 2025 GeoGebra®<br><a href ="https://www.geogebra.org/"> https://www.geogebra.org/</a></div>
     </body>
-    <script src="../index.html"></script>
+    <script src="../public/geogebragraphing.js"></script>
 </html>

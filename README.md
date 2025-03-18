@@ -40,6 +40,7 @@ Be sure you have the following installed:
 Follow these steps to fork and clone the repository:
 
  - Open Git Bash
+ - Navigate to:  https://github.com/DianeVail/MathYourWay
  - Fork the repository
  - Clone the forked repository to edit on your local computer
 

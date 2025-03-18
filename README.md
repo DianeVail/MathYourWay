@@ -24,7 +24,8 @@ This projects contains the following pages:
 1.  Launch Page with external links
 2.  Pythagorean Theorem Calculator
 3.  Geogebra Geometry Page
-4.  Geogebra Graphing Calculator Page
+4.  Function Evaluator
+5.  Geogebra Graphing Calculator Page
 
 **Prerequisites:**
 

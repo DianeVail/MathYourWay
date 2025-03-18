@@ -3,8 +3,9 @@ This Project was created to help students easily find resources for solving math
 
  - Numbers API
  - Geogebra API
- - KhanAcademy.com 
- - SchoolYourself.com
+ - Geogebra.org
+ - KhanAcademy.org
+ - SchoolYourself.org
 
 This project also includes an app to calculate the hypotenuse of a right triangle.  Users will input values to calculate the length of the hypotenuse of a right triangle using the Pythagorean Theorem.  The app tests the input for valid data and outputs an error if necessary.  
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <body>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+        
+        <title>Solving Equation Tool</title>        
+        <div class = "mathpages">
+            <div class = "header">Math Equation Solver</div>            
+            <p>A Linear equation can be written in the form y = mx + b, where m is the slope and b is the y-intercept.</p>
+            <p>A Quadratic Equation can be written in the form of ax<sup>2</sup> +bx + c, where a,b,and c are numbers.</p>
+            <p>Below, enter the values of a, b, and c.  If your equation is linear, enter a 0 for a and anter the m value in place of b.</p>               
+
+            <div class = "btn-container">
+                <label for="side-a">Enter a value for a</label>
+                <input type="number" id="side-a" name=""><br>
+
+                <label for="side-b">Enter a value for b</label>
+                <input type="number" id="side-b" name=""><br>
+
+                <label for="side-c">Enter a value for c</label>
+                <input type="number" id="side-c" name=""><br>  
+
+                <button id = "submit-btn">Submit</button>
+                <span id = "message"></span>
+                <button class="mathlinks"><a href = "./geogebragraphing.html" class="link-btn">Click Here to Explore the graph of your equation</a></button></p></div>
+            </div>
+        </div>
+        <p><a href="./index.html">Back to Home</a></p> <!--returns to home-->
+        <div class = "footer">Created By: DVaillancourt for Code:You, March 2025</div>
+
+        <script src="./js/solvingequationtool.js"></script>
+    </body>
+    
+</html>          

@@ -32,8 +32,8 @@ function checkValues() {  //Check to make sure input is valid
         message.innerText = result;  //Outputs a blank response if not a triple
         
         if (legA %1 === 0 && legB %1 === 0 && answer %1 === 0) {
-        result = "Congratulations!  You have found a Pythagorean Triple!!  A Pythagorean triple consists of three positive integers a, b, and c, such that a^2 + b^2 = c^2.  A triangle whose side lengths are a Pythagorean triple is a right triangle and called a Pythagorean triangle."  
-        message.innerText = result;
+        document.getElementById("message").innerHTML = "Congratulations!  You have found a Pythagorean Triple!!  A Pythagorean triple consists of three positive integers a, b, and c, such that a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.  A triangle whose side lengths are a Pythagorean triple is a right triangle and called a Pythagorean triangle."  
+        
     }
 }
 }

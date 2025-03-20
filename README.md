@@ -7,7 +7,7 @@ This Project was created to help students easily find resources for solving math
  - KhanAcademy.org
  - SchoolYourself.org
 
-This project also includes an app to calculate the hypotenuse of a right triangle.  Users will input values to calculate the length of the hypotenuse of a right triangle using the Pythagorean Theorem.  The app tests the input for valid data and outputs an error if necessary.  
+Thgis poject uses an API to list an intersting fact of the day everytime the page is visited.  It includes an app to calculate the hypotenuse of a right triangle. Users will input values to calculate the length of the hypotenuse of a right triangle using the Pythagorean Theorem.  The app tests the input for valid data and outputs an error if necessary.  This project also includes an app that calculates the solutions to a quadratic equation and outputs the x-intercepts.  If the user enters a linear equation it oupts the properties of the line created.  Both of these apps include links to the appropriate graphing software.  
 
 **Goals of this Project**
 

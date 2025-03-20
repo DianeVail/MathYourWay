@@ -26,7 +26,7 @@ function checkValues() {
     if (legA > 0){  //Checks for a positive leading coeff.
         let roots = (legB * legB)-(4 * legA * legC);  //Checks for imaginary roots
             if (roots < 0){
-            result = "The graph is a parabola that opens up, and the x-intercepts are imaginary";
+            result = "The graph is a parabola that opens up, and the x-intercepts are imaginary.  This means there are no real solutions to this equation and the graph does not cross the x-axis.";
             message.innerText = result;
             
             } else {  //Solves for x using the Quadriatic Formula                            
@@ -40,7 +40,7 @@ function checkValues() {
         } else if (legA < 0){//Checks for a negative leading coeff.
             let roots = (legB*legB) - (legA*legC*4);
                 if (roots < 0){
-                result = "The graph is a parabola that opens down, and the x-intercepts are imaginary";
+                result = "The graph is a parabola that opens down, and the x-intercepts are imaginary.  This means there are no real solutions to this equation and the graph does not cross the x-axis.";
                 message.innerText = result;
             } else { //Solves for x using the Quadriatic Formula
                 intercept1 = (-legB + Math.sqrt(roots)) / 2 * legA;                

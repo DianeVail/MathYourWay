@@ -10,9 +10,9 @@ const message = document.getElementById("message") //outputs a message
 
 let result = "";
 
-
 function checkValues() {  //Check to make sure input is valid
     let answer = " ";
+    let final = "Math.pow(a, 2) + Math.pow(b, 2) = Math.pow(c, 2)";
     let legA = 0;
     let legB = 0; 
     let result = " ";
@@ -30,10 +30,10 @@ function checkValues() {  //Check to make sure input is valid
         result = " ";
         hypotenuse.innerText = answer;
         message.innerText = result;  //Outputs a blank response if not a triple
-
+        
         if (legA %1 === 0 && legB %1 === 0 && answer %1 === 0) {
-            result = "Congratulations!  You have found a Pythagorean Triple!!! A Pythagorean triple consists of three positive integers a, b, and c, such that a2 + b2 = c2.  A triangle whose side lengths are a Pythagorean triple is a right triangle and called a Pythagorean triangle.";
-            message.innerText = result;
+        result = "Congratulations!  You have found a Pythagorean Triple!!  A Pythagorean triple consists of three positive integers a, b, and c, such that a^2 + b^2 = c^2.  A triangle whose side lengths are a Pythagorean triple is a right triangle and called a Pythagorean triangle."  
+        message.innerText = result;
     }
 }
 }

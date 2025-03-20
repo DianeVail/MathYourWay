@@ -4,7 +4,7 @@
 
 const mathFactElement = document.querySelector(".fact-text");
 
-async function getTrivia() {
+async function getRandom() {
     try {
         const res = await fetch("http://numbersapi.com/random/math?json");
         const data = await res.json()
@@ -15,7 +15,7 @@ async function getTrivia() {
     }
 }
 
-getTrivia();
+getRandom();
 
 
 

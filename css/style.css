@@ -10,6 +10,21 @@ body {
 	line-height: 1.6;
 	background-color: rgb(166, 222, 240);
 }
+.background-img {
+	background-image : "./images/geometry-1044090_1280.jpg";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.05;
+	z-index: auto;
+	pointer-events: none;
+
+}
 
 a, .link-btn {
 	color: #0f0f0f;	
@@ -40,9 +55,9 @@ a:hover {
 	flex-direction: column;
 	flex-wrap: wrap;
 	font-size: 15px;		
-	justify-content: left;
+	justify-content: center;
 	padding: 2.5rem;
-	width: 100%;
+	width: 90%;
 }
 
 .input {
@@ -81,12 +96,23 @@ p, .fact-text {
 	width: fit-content;
 }
 
+.input-container {	
+	display: flex;
+    flex-direction: column;	
+	flex-wrap: wrap;    
+	justify-content: center;
+	margin-inline: 25%;
+	padding: 1rem 1rem;
+	margin-top: 10px;	
+	width: fit-content;
+}
+
 .photo-img {
 	display: flex;	
 	flex-wrap: wrap;
 	justify-content:center;
-	margin: auto;
-	width: fit-content;
+	margin: ;
+	width:;
 }
 
 .footer {
@@ -104,6 +130,20 @@ p, .fact-text {
 		font-size: 40px;
 		line-height: 1.6;
 		background-color: rgb(166, 222, 240);
+	}
+	.background-img {
+		background-image : "./images/geometry-1044090_1280.jpg";
+		display:flex;
+		justify-content: center;
+		background-repeat: no-repeat;
+     	background-size: cover;
+		opacity: 0.05;
+		z-index: auto;	
+		pointer-events: none;
+		
+
+		
+
 	}
 	
 	a, link-btn {
@@ -135,8 +175,7 @@ p, .fact-text {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		font-size: 30px;		
-		justify-content: left;
+		justify-content: center;
 		padding: 2.5rem;
 		width: 100%;
 	}
@@ -163,7 +202,7 @@ p, .fact-text {
 		display:flex;    
 		margin: 1rem; 
 		max-width: 10rem;
-		padding: ;   
+		   
 	}
 	
 	.btn-container {	

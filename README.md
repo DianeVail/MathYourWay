@@ -8,7 +8,7 @@ This Project was created to help students easily find resources for math class w
  - KhanAcademy.org
  - SchoolYourself.org
 
-This poject uses an API to list an intersting fact of the day everytime the page is visited.  It includes an app to calculate the hypotenuse of a right triangle. Users will input values to calculate the length of the hypotenuse of a right triangle using the Pythagorean Theorem.  The app tests the input for valid data and outputs an error if necessary.  This project also includes an app that calculates the solutions to a Quadratic Equation and outputs the x-intercepts and end-behavior of the graph.  If the user enters a linear equation it outputs the properties of the line created.  Both of these apps include links to the appropriate graphing software.  
+This project uses an API to list an intersting fact of the day everytime the page is visited.  It includes an app to calculate the hypotenuse of a right triangle. Users will input values for the 2 short legs of a right triangle, and the app will compute the hypotenuse using the Pythagorean Theorem.  The app tests the input for valid data and outputs an error if necessary.  This project also includes an app that calculates the solutions to a Quadratic Equation and outputs the x-intercepts and end-behavior of the graph.  If the user enters a linear equation it outputs the properties of the line such as slope and y-intercept.  Both of these apps include links to the appropriate graphing software.  
 
 **Goals of this Project**
 

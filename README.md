@@ -19,19 +19,24 @@ This poject uses an API to list an intersting fact of the day everytime the page
 **Code:YOU Feature Requirements**
 
 1.  **Launch Page**
+
     Requirements included: Retrieve data from a third-party API and use it to display something within your app.
     
 2.  **Pythagorean Theorem Calculator**
+   
     Requirements included:  - Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs.
                             - Use a regular expression to validate user input and either prevent the invalid input or inform the user about it.
                      
 3.  **Geogebra Geometry Page**
+   
      Requirements included: Retrieve data from a third-party API and use it to display something within your app.
     
 4.  **Algebraic Function Evaluator**
+
     Requirements included: Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs.
     
 5.  **Geogebra Graphing Calculator Page**
+
     Requirements included: Retrieve data from a third-party API and use it to display something within your app.
 
 **Prerequisites:**
